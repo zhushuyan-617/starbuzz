@@ -16,7 +16,7 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin: 0px 10px 10px 10px;
+  vertical-align: top;
   
 }
 
@@ -69,7 +69,6 @@ a:visited {
 }
 
 #allcontent {
-  
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #675c47;
@@ -77,12 +76,12 @@ a:visited {
   margin-right: auto;
 }
 
-div#tableContainer {
+#tableContainer {
   display: table;
   border-spacing: 10px;
 }
 
-div#tableRow {
+#tableRow {
   display: table-row;
 }
 
